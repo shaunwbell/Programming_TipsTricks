@@ -1,8 +1,8 @@
 Backup Readme
-----------------
+=============
 
 Software
-========
+--------
 
 MAMP (or other webserver stack)  
 Sublime (or other text editor)   
@@ -52,7 +52,7 @@ npm
 
 
 Backups
-=======
+-------
 
 ecoraid data archive
 - old archive
@@ -72,7 +72,8 @@ from github
 - general utilities
 
 Project Data Synthesis List
-===========================
+---------------------------
+
 + ITAE/PITAE
 	- 2016 : Buoy, WaveGlider, Saildrone
 	- 2015 : Buoy, WaveGlider, Saildrone
@@ -82,23 +83,23 @@ Project Data Synthesis List
 + SailDrone (2015 Bering Deployment)
 
 Local Only
-==========
+----------
 
 ancillary data records
 
 SSH Copy and SSH Keys
-=====================
+---------------------
 
 CMD Line Tips
-=============
+-------------
 
-Compare the contents of folder1 to folder2
-	`diff -arq folder1 folder2`
+Compare the contents of folder1 to folder2   
+	`diff -arq folder1 folder2`   
 
-Update existing installed packages with Brew Cask
-	`brew cask list | xargs brew cask reinstall`
+Update existing installed packages with Brew Cask   
+	`brew cask list | xargs brew cask reinstall`   
 
-refresh git repository after files have been initially committed (often due to new .gitignore file)
-	`git rm -r --cached .`
-	`git add .`
-	`git commit -m "gitignore updated and working"`
+refresh git repository after files have been initially committed (often due to new .gitignore file)   
+	`git rm -r --cached .`   
+	`git add .`   
+	`git commit -m "gitignore updated and working"`   
