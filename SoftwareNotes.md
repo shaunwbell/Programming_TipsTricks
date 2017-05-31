@@ -9,15 +9,16 @@ Sublime (or other text editor)
 GitHub desktop (alternative to managing git client)   
 QGIS (or other GIS tool)
 VLC   
-R/Rstudio
-+ CRAN
+
+#### R/Rstudio
+- CRAN
 - ggplot2
-ODV
+#### ODV
 - cmoceans colormap addons
 - topographic addons
 
-anaconda python   2.7/3.6
-+ conda-forge as primary repo
+#### anaconda python   2.7/3.6
+- conda-forge as primary repo
 - netcdf4
 - matplotlib
 - xarray
@@ -34,10 +35,10 @@ anaconda python   2.7/3.6
 - pymysql
 - wget
 - ephem
-pip
+##### pip
 - calmap
 
-brew
+#### brew
 - googlechrome
 - coreutils
 - ffmpeg
@@ -49,7 +50,7 @@ brew
 - wine
 - gmt
 
-npm
+#### npm
 - dygraphs
 - bootstrap
 - datatables
@@ -59,7 +60,7 @@ npm
 Backups
 -------
 
-ecoraid data archive
+#### ecoraid data archive
 - old archive
 - new style archive
 - documentation
