@@ -16,7 +16,7 @@ ODV
 - cmoceans colormap addons
 - topographic addons
 
-anaconda python   2.7/3.5
+anaconda python   2.7/3.6
 + conda-forge as primary repo
 - netcdf4
 - matplotlib
@@ -27,11 +27,15 @@ anaconda python   2.7/3.5
 - cartopy
 - gsw (TEOS-10 seawater standard)
 - seawater (EOS-80 standard)
+- GSW-python ***python3 only***
 - ctd
 - cmoceans (colormap)
 - udunits2
 - pymysql
 - wget
+- ephem
+pip
+- calmap
 
 brew
 - googlechrome
@@ -43,6 +47,7 @@ brew
 - cmake
 - qgis
 - wine
+- gmt
 
 npm
 - dygraphs
@@ -75,12 +80,16 @@ Project Data Synthesis List
 ---------------------------
 
 + ITAE/PITAE
-	- 2016 : Buoy, WaveGlider, Saildrone
-	- 2015 : Buoy, WaveGlider, Saildrone
+	- 2017 : Prawler Buoy, Oculus
+	- 2016 : Prawler Buoy, WaveGlider, Saildrone
+	- 2015 : Prawler Buoy, WaveGlider, Saildrone
 + ArcticHeat
 + NPRB_WarmEvent
 + Rusalca
 + SailDrone (2015 Bering Deployment)
++ Acrobat
+	- 2016 Arctic Deployment
+	- 2017 Bering Deployment
 
 Local Only
 ----------
@@ -93,13 +102,13 @@ SSH Copy and SSH Keys
 CMD Line Tips
 -------------
 
-Compare the contents of folder1 to folder2   
-	`diff -arq folder1 folder2`   
+Compare the contents of folder1 to folder2
+	`diff -arq folder1 folder2`
 
-Update existing installed packages with Brew Cask   
-	`brew cask list | xargs brew cask reinstall`   
+Update existing installed packages with Brew Cask
+	`brew cask list | xargs brew cask reinstall`
 
-refresh git repository after files have been initially committed (often due to new .gitignore file)   
-	`git rm -r --cached .`   
-	`git add .`   
-	`git commit -m "gitignore updated and working"`   
+refresh git repository after files have been initially committed (often due to new .gitignore file)
+	`git rm -r --cached .`
+	`git add .`
+	`git commit -m "gitignore updated and working"`
