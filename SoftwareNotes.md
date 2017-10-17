@@ -79,15 +79,15 @@ Backups
 
 shaun bell internal pavlof webserver
 
-**omit following files**
+**omit following files**  
 - ferret.jnl* (ferret files)
 
-from github
+from github  
 - python routines
 - rscripts
 - general utilities
 
-FOCI-Imagery and Graphics
+FOCI-Imagery and Graphics  
 - From Karen Birchfield post retirement (2017)
 
 Project Data Synthesis List
@@ -142,5 +142,5 @@ RaidStorage - (currently EcoRAID) - large redundant disk for archive of data and
 *primary data storage
 ERDDAP - DataServer (group and lab wide versions) prevents direct raid access for final data streams
 Webserver - Pavlof (local information of group interest and visualizations)
-Webserver/MySQL - Access to generation of digital records (mooring and ctd)
+Webserver/MariaDB - Access to generation of digital records (mooring and ctd)
 
