@@ -4,15 +4,17 @@ Backup Readme
 Software
 --------
 
-MAMP (or other webserver stack)  
+MAMP (or other webserver stack)  / MariaDB
 Sublime (or other text editor)   
 GitHub desktop (alternative to managing git client)   
-QGIS (or other GIS tool)
+QGIS (or other GIS tool)   
 VLC   
+Panoply  (netcdf visualization tool from NASA-GISS)
 
 #### R/Rstudio
 - CRAN
 - ggplot2
+
 #### ODV
 - cmoceans colormap addons
 - topographic addons
@@ -33,8 +35,12 @@ VLC
 - cmoceans (colormap)
 - udunits2
 - pymysql
-- wget
+- pywget
 - ephem
+- mysql-connector
+- pygc (a great circle calculator)
+- pysftp *POC for conda-forge*
+- pyserial *POC for conda-forge*
 ##### pip
 - calmap
 
@@ -49,6 +55,7 @@ VLC
 - qgis
 - wine
 - gmt
+- tomcat
 
 #### npm
 - dygraphs
@@ -56,6 +63,9 @@ VLC
 - datatables
 - leaflet
 
+### ERDDAP Service
+- needs tomcat
+- java 1.8
 
 Backups
 -------
@@ -77,14 +87,19 @@ from github
 - rscripts
 - general utilities
 
+FOCI-Imagery and Graphics
+- From Karen Birchfield post retirement (2017)
+
 Project Data Synthesis List
 ---------------------------
 
 + ITAE/PITAE
-	- 2017 : Prawler Buoy, Oculus
+	- 2017 : Prawler Buoy (Bering, Chukchi), Oculus Glider
 	- 2016 : Prawler Buoy, WaveGlider, Saildrone
 	- 2015 : Prawler Buoy, WaveGlider, Saildrone
 + ArcticHeat
+	- 2017 : XBT/AXCTD/ALAMO_FLOATS
+	- 2016 : XBT/AXCTD/ALAMO_FLOATS
 + NPRB_WarmEvent
 + Rusalca
 + SailDrone (2015 Bering Deployment)
@@ -113,3 +128,19 @@ refresh git repository after files have been initially committed (often due to n
 	`git rm -r --cached .`
 	`git add .`
 	`git commit -m "gitignore updated and working"`
+
+
+Data Access, Archive, Distribution Map  
+--------------------------------------
+
+***Access, ownership, redundancy, discovery***
+
+Github/Git - Versioning and software creation (even one-use scientific scripts)
+GoogleDrive - Archive and community access of digital records and media   
+*not currently primary resource but soon to be
+RaidStorage - (currently EcoRAID) - large redundant disk for archive of data and data access 
+*primary data storage
+ERDDAP - DataServer (group and lab wide versions) prevents direct raid access for final data streams
+Webserver - Pavlof (local information of group interest and visualizations)
+Webserver/MySQL - Access to generation of digital records (mooring and ctd)
+
