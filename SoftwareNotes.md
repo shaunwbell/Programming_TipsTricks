@@ -66,6 +66,7 @@ Panoply  (netcdf visualization tool from NASA-GISS)
 ### ERDDAP Service
 - needs tomcat
 - java 1.8
+- (ERDDAP files should be in /usr/local/Cellar/tomcat/{version}/libexe/)
 
 Backups
 -------
@@ -137,10 +138,19 @@ Data Access, Archive, Distribution Map
 
 Github/Git - Versioning and software creation (even one-use scientific scripts)
 GoogleDrive - Archive and community access of digital records and media   
-*not currently primary resource but soon to be
-RaidStorage - (currently EcoRAID) - large redundant disk for archive of data and data access 
-*primary data storage
++not currently primary resource but soon to be
+RaidStorage - (currently EcoRAID) - large redundant disk for archive of data and data access  
++primary data storage
 ERDDAP - DataServer (group and lab wide versions) prevents direct raid access for final data streams
 Webserver - Pavlof (local information of group interest and visualizations)
-Webserver/MariaDB - Access to generation of digital records (mooring and ctd)
+Webserver/MariaDB - Access to generation of digital records (mooring and ctd)   
+
+ERDDAP Tips/Good Sources
+------------------------
+
+to start - `catalina start`
+
+Alamo Floats
+GOES Data
+VIIRS/MODIS
 
