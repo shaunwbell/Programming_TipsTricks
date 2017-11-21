@@ -24,6 +24,7 @@ Panoply  (netcdf visualization tool from NASA-GISS)
 - netcdf4
 - matplotlib
 - xarray
+	- salem (geo-subsetting)
 - pandas
 - yaml
 - basemap (dev and highres from conda-forge)
@@ -37,12 +38,16 @@ Panoply  (netcdf visualization tool from NASA-GISS)
 - pymysql
 - pywget
 - ephem
+- geomag (magnetic declination calculator... WMM files are 2010 but need to be updated - this is done on github)
 - mysql-connector
 - pygc (a great circle calculator)
 - pysftp *POC for conda-forge*
 - pyserial *POC for conda-forge*
 ##### pip
 - calmap
+- jupyter
+	- rise (jupyter-slideshow)
+	- jupyter_nbextensions_configurator (extensions)
 
 #### brew
 - googlechrome
