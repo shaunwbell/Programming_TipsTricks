@@ -11,3 +11,28 @@ ffmpeg Example:
 
 
 `ffmpeg -framerate 5 -pattern_type glob -i "*_movie_2015-*.png" -c:v libx264 out.mp4`
+
+
+** if you want to add captions/labels to each frame you need to do it using ImageMagick and the convert tool.  An example shell script to do so by adding the date from the filename is below.
+
+`
+#!/bin/bash
+
+# Purpose:
+#       Obtain date from filename, format it, and add to image
+
+
+data_dir=${PWD}
+
+
+for files in `ls ${data_dir}/`
+do
+    echo "processing file: ${data_dir}/$files"
+    IFS='_' read -r -a array <<< "$files"
+    echo "DOY ${array[1]}"
+    yyyy="2017"; doy="${array[1]}"; 
+    doy2date=$(date -jf %s $(($(date -jf "%F" "$yyyy-01-01" +%s) + ((10#$doy - 1)) * 86400)) +"%F")
+    echo $doy2date
+    convert ${data_dir}/${files} -gravity SouthWest -pointsize 30 -draw "fill black  text 50,80  '$doy2date'"  ${array[1]}.jpg
+done
+`
