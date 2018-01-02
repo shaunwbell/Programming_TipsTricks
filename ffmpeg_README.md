@@ -15,7 +15,7 @@ ffmpeg Example:
 
 ** if you want to add captions/labels to each frame you need to do it using ImageMagick and the convert tool.  An example shell script to do so by adding the date from the filename is below.
 
-`
+```bash
 #!/bin/bash
 
 # Purpose:
@@ -35,4 +35,4 @@ do
     echo $doy2date
     convert ${data_dir}/${files} -gravity SouthWest -pointsize 30 -draw "fill black  text 50,80  '$doy2date'"  ${array[1]}.jpg
 done
-`
+```
