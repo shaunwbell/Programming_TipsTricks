@@ -48,7 +48,8 @@ Panoply  (netcdf visualization tool from NASA-GISS)
 - jupyter
 	- rise (jupyter-slideshow)
 	- jupyter_nbextensions_configurator (extensions)
-
+- erddapy [https://pyoceans.github.io/erddapy/quick_intro.html]
+- 
 #### brew
 - googlechrome
 - coreutils
