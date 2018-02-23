@@ -4,9 +4,13 @@ Useful Sites and Links
 ### Clouds and Identification
 + Online International Cloud Atlas - [https://cloudatlas.wmo.int/home.html]
 
+-------------------------------------------------------------------------------
 ### Archive Data
 #### Meteorology
 + Surface Weather Maps - [http://www.wpc.ncep.noaa.gov/archives/web_pages/sfc/sfc_archive.php]
++ Washington State Climatology Office - [http://www.climate.washington.edu/]
++ UW WeatherWall - [https://atmos.washington.edu/data/]
++ College of Dupage (GOES-16) - [https://weather.cod.edu]
 
 #### Oceanography   
 + PO.DAAC - [https://podaac.jpl.nasa.gov/GHRSST]
@@ -18,10 +22,10 @@ Useful Sites and Links
 + World Ocean Database - 
 
 #### Underway
-+ SAMOS - [samos.coaps.fsu.edu]
++ SAMOS - [http://samos.coaps.fsu.edu/html/]
 + ICOADS/NCEI - []
 
-
+-------------------------------------------------------------------------------
 ### Model Data
 #### Meteorology
 
@@ -30,6 +34,7 @@ Useful Sites and Links
 #### Satelites
 
 
+-------------------------------------------------------------------------------
 ### Programming/Data Access Tools
 
 + PO.DAAC - [https://podaac.jpl.nasa.gov/GHRSST]
@@ -44,3 +49,8 @@ Useful Sites and Links
 #### Keywords
 
 pydap, erddapy, podaacpy
+
+-------------------------------------------------------------------------------
+### Publications and Papers
+
++ NOAA Library - [https://repository.library.noaa.gov/]

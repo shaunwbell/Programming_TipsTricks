@@ -43,13 +43,15 @@ Panoply  (netcdf visualization tool from NASA-GISS)
 - pygc (a great circle calculator)
 - pysftp *POC for conda-forge*
 - pyserial *POC for conda-forge*
+- erddapy [https://pyoceans.github.io/erddapy/quick_intro.html]
+- zeep (python soap client)
+
 ##### pip
 - calmap
 - jupyter
 	- rise (jupyter-slideshow)
 	- jupyter_nbextensions_configurator (extensions)
-- erddapy [https://pyoceans.github.io/erddapy/quick_intro.html]
-- 
+
 #### brew
 - googlechrome
 - coreutils
