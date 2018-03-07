@@ -56,3 +56,21 @@ pydap, erddapy, podaacpy
 ### Publications and Papers
 
 + NOAA Library - [https://repository.library.noaa.gov/]
+
+#### ERDDAP Servers (list is from erddapy )
+- 'BMLSC': 'http://bmlsc.ucdavis.edu:8080/erddap',
+- 'CSCGOM': 'http://cwcgom.aoml.noaa.gov/erddap',
+- 'CSWC': 'https://coastwatch.pfeg.noaa.gov/erddap',
+- 'CeNCOOS': 'http://erddap.axiomalaska.com/erddap',
+- 'IFREMER': 'http://www.ifremer.fr/erddapindex.html',
+- 'MDA': 'https://bluehub.jrc.ec.europa.eu/erddap',
+- 'MII': 'http://erddap.marine.ie/erddap',
+- 'NCEI': 'http://ecowatch.ncddc.noaa.gov/erddap',
+- 'NERACOOS': 'http://www.neracoos.org/erddap',
+- 'NGDAC': 'http://data.ioos.us/gliders/erddap',
+- 'ONC': 'http://dap.onc.uvic.ca/erddap',
+- 'OSMC': 'http://osmc.noaa.gov/erddap',
+- 'PacIOOS': 'http://oos.soest.hawaii.edu/erddap',
+- 'RTECH': 'http://meteo.rtech.fr/erddap',
+- 'SECOORA': 'http://erddap.secoora.org/erddap',
+- 'UAF': 'https://upwell.pfeg.noaa.gov/erddap'
