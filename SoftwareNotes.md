@@ -45,6 +45,7 @@ Panoply  (netcdf visualization tool from NASA-GISS)
 - pyserial *POC for conda-forge*
 - erddapy [https://pyoceans.github.io/erddapy/quick_intro.html]
 - zeep (python soap client)
+- gmt-python (GMT - Generic Mapping Tools wrapper)
 
 ##### pip
 - calmap
