@@ -54,7 +54,6 @@ Panoply  (netcdf visualization tool from NASA-GISS)
 	- jupyter_nbextensions_configurator (extensions)
 
 #### brew
-- googlechrome
 - coreutils
 - ffmpeg
 - imagemagick
@@ -63,7 +62,6 @@ Panoply  (netcdf visualization tool from NASA-GISS)
 - cmake
 - qgis
 - wine
-- gmt
 - tomcat
 
 #### npm
