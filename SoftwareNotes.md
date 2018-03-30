@@ -61,7 +61,6 @@ Panoply  (netcdf visualization tool from NASA-GISS)
 - pandoc
 - cmake
 - qgis
-- wine
 - tomcat
 
 #### npm
