@@ -74,6 +74,9 @@ Panoply  (netcdf visualization tool from NASA-GISS)
 - java 1.8
 - (ERDDAP files should be in /usr/local/Cellar/tomcat/{version}/libexe/)
 
+### Testbed Software
+- Docker
+
 Backups
 -------
 
