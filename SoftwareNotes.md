@@ -6,7 +6,8 @@ Software
 
 MAMP (or other webserver stack)  / MariaDB
 Sublime (or other text editor)   
-GitHub desktop (alternative to managing git client)   
+GitHub desktop (alternative to managing git client)
+Mercurial (TortoiseHG)   
 QGIS (or other GIS tool)   
 VLC   
 Panoply  (netcdf visualization tool from NASA-GISS)
@@ -30,8 +31,9 @@ Panoply  (netcdf visualization tool from NASA-GISS)
 - basemap (dev and highres from conda-forge)
 - cartopy
 - gsw (TEOS-10 seawater standard)
-- seawater (EOS-80 standard)
-- GSW-python ***python3 only***
+	- GSW-python ***python3 only***
+	- python-gsw ***deprecated***
+- seawater (EOS-80 standard) ***python2***
 - ctd
 - cmoceans (colormap)
 - udunits2
@@ -43,9 +45,12 @@ Panoply  (netcdf visualization tool from NASA-GISS)
 - pygc (a great circle calculator)
 - pysftp *POC for conda-forge*
 - pyserial *POC for conda-forge*
-- erddapy [https://pyoceans.github.io/erddapy/quick_intro.html]
+- erddapy [https://pyoceans.github.io/erddapy/quick_intro.html] ***python3 only***
 - zeep (python soap client)
-- gmt-python (GMT - Generic Mapping Tools wrapper)
+- gmt-python (GMT - Generic Mapping Tools wrapper) ***python3 only***
+
+##### mercurial repo
+UH-software https://currents.soest.hawaii.edu/hg/pycurrents/
 
 ##### pip
 - calmap
@@ -75,7 +80,7 @@ Panoply  (netcdf visualization tool from NASA-GISS)
 - (ERDDAP files should be in /usr/local/Cellar/tomcat/{version}/libexe/)
 
 ### Testbed Software
-- Docker
+- Docker?
 
 Backups
 -------
