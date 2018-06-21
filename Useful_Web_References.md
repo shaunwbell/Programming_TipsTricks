@@ -75,3 +75,6 @@ pydap, erddapy, podaacpy
 - 'RTECH': 'http://meteo.rtech.fr/erddap',
 - 'SECOORA': 'http://erddap.secoora.org/erddap',
 - 'UAF': 'https://upwell.pfeg.noaa.gov/erddap'
+
+### Mailing Lists
++ ESIP Tech Dive: 'http://wiki.esipfed.org/index.php/Interoperability_and_Technology/Tech_Dive_Webinar_Series'
