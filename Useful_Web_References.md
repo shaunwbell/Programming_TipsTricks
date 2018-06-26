@@ -76,5 +76,13 @@ pydap, erddapy, podaacpy
 - 'SECOORA': 'http://erddap.secoora.org/erddap',
 - 'UAF': 'https://upwell.pfeg.noaa.gov/erddap'
 
+#### ERDDAP Servers for NOAA Projects
+- 'ArcticHeat': 'https://ferret.pmel.noaa.gov/alamo/erddap/index.html' (Public)
+- 'downdraft': 'http://downdraft.pmel.noaa.gov:8080/erddap/index.html' (Private)
+- 'SDIG Internal': 'http://dunkel.pmel.noaa.gov:9290/erddap/index.html' (Private)
+    + Saildrone
+    + example FOCI
+
+
 ### Mailing Lists
 + ESIP Tech Dive: 'http://wiki.esipfed.org/index.php/Interoperability_and_Technology/Tech_Dive_Webinar_Series'
