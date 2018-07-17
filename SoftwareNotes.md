@@ -1,4 +1,4 @@
-Backup Readme
+Software Readme
 =============
 
 Software
@@ -20,8 +20,8 @@ Panoply  (netcdf visualization tool from NASA-GISS)
 - cmoceans colormap addons
 - topographic addons
 
-#### anaconda python   2.7/3.6
-- conda-forge as primary repo
+#### anaconda python   2.7/3.6/3.7
++ conda-forge as primary repo
 - netcdf4
 - matplotlib
 - xarray
