@@ -2,32 +2,35 @@ Useful Sites and Links
 ----------------------
 
 ### Clouds and Identification
-+ Online International Cloud Atlas - [https://cloudatlas.wmo.int/home.html]
++ Online International Cloud Atlas - (https://cloudatlas.wmo.int/home.html)
 
 ### Units and Conversions
-+ ICES Oceanography - [http://ocean.ices.dk/tools/unitconversion.aspx]
++ ICES Oceanography - (http://ocean.ices.dk/tools/unitconversion.aspx)
 -------------------------------------------------------------------------------
 ### Archive Data
 #### Meteorology
-+ Surface Weather Maps - [http://www.wpc.ncep.noaa.gov/archives/web_pages/sfc/sfc_archive.php]
-+ Washington State Climatology Office - [http://www.climate.washington.edu/]
-+ UW WeatherWall - [https://atmos.washington.edu/data/]
-+ College of Dupage (GOES-16) - [https://weather.cod.edu]
++ Surface Weather Maps - (http://www.wpc.ncep.noaa.gov/archives/web_pages/sfc/sfc_archive.php)
++ Washington State Climatology Office - (http://www.climate.washington.edu/)
++ UW WeatherWall - (https://atmos.washington.edu/data/)
++ College of Dupage (GOES-16) - (https://weather.cod.edu)
 
 #### Oceanography   
-+ PO.DAAC - [https://podaac.jpl.nasa.gov/GHRSST]
++ PO.DAAC - (https://podaac.jpl.nasa.gov/GHRSST)
 
 #### SST
-+ MUR - [https://mur.jpl.nasa.gov/News.php]
-+ NCEP OI V2 - []
++ MUR - (https://mur.jpl.nasa.gov/News.php)
++ NCEP OI V2 - ()
 
 #### CTD/Profile
 + World Ocean Database - 
 
 #### Underway
-+ SAMOS - [http://samos.coaps.fsu.edu/html/]
-+ ICOADS/NCEI - []
++ SAMOS - (http://samos.coaps.fsu.edu/html/)
++ ICOADS/NCEI - ()
 
+#### Ice Analyisis
++ US National Ice Center / Naval Ice Center - (https://www.natice.noaa.gov/Main_Products.htm)
++ NWS Alaskan Ice Desk - (https://www.weather.gov/afc/ice)
 -------------------------------------------------------------------------------
 ### Model Data
 #### Meteorology
@@ -40,14 +43,14 @@ Useful Sites and Links
 -------------------------------------------------------------------------------
 ### Programming/Data Access Tools
 
-+ PO.DAAC - [https://podaac.jpl.nasa.gov/GHRSST]
++ PO.DAAC - (https://podaac.jpl.nasa.gov/GHRSST)
 + http://www.seaviewdata.org/index.php/accessing-thredds-data/
-+ Seaview - [http://www.seaviewdata.org/]
-+ CF-Checker - [https://podaac-uat.jpl.nasa.gov/mcc/]
-+ Pangeo - [http://pangeo-data.org/]   
++ Seaview - (http://www.seaviewdata.org/)
++ CF-Checker - (https://podaac-uat.jpl.nasa.gov/mcc/)
++ Pangeo - (http://pangeo-data.org/)   
 + 
 #### Python
-+ PyData - [https://github.com/pydata]   
++ PyData - (https://github.com/pydata)   
 
 
 #### Keywords
@@ -57,7 +60,7 @@ pydap, erddapy, podaacpy
 -------------------------------------------------------------------------------
 ### Publications and Papers
 
-+ NOAA Library - [https://repository.library.noaa.gov/]
++ NOAA Library - (https://repository.library.noaa.gov/)
 
 #### ERDDAP Servers (list is from erddapy )
 - 'BMLSC': 'http://bmlsc.ucdavis.edu:8080/erddap',
