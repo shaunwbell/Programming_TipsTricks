@@ -36,3 +36,23 @@ do
     convert ${data_dir}/${files} -gravity SouthWest -pointsize 30 -draw "fill black  text 50,80  '$doy2date'"  ${array[1]}.jpg
 done
 ```
+
+or just label based on filename
+
+```bash
+#!/bin/bash
+
+# Purpose:
+#       Obtain date from filename, format it, and add to image
+
+
+data_dir=${PWD}
+
+
+for files in `ls ${data_dir}/`
+do
+    echo "processing file: ${data_dir}/$files"
+
+    convert ${data_dir}/${files} -gravity SouthWest -pointsize 30 -draw "fill black  text 50,80  '$files'"  ${files}.jpg
+done
+```
