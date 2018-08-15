@@ -31,14 +31,25 @@ Useful Sites and Links
 #### Ice Analyisis
 + US National Ice Center / Naval Ice Center - (https://www.natice.noaa.gov/Main_Products.htm)
 + NWS Alaskan Ice Desk - (https://www.weather.gov/afc/ice)
+
 -------------------------------------------------------------------------------
 ### Model Data
+
 #### Meteorology
 
 #### Oceanography
 
 #### Satelites
 
+-------------------------------------------------------------------------------
+### Meta Information and Documentation
+
+#### NetCDF 
++ NetCDF from UNIDATA (https://www.unidata.ucar.edu/software/netcdf/conventions.html)
++ ACDD (http://wiki.esipfed.org/index.php/Attribute_Convention_for_Data_Discovery_1-3)
++ CF (http://cfconventions.org/)
++ OceanSites (http://www.oceansites.org/docs/oceansites_data_format_reference_manual.pdf)
++ NCEI template (https://www.nodc.noaa.gov/data/formats/netcdf/v2.0/)
 
 -------------------------------------------------------------------------------
 ### Programming/Data Access Tools
@@ -49,6 +60,7 @@ Useful Sites and Links
 + CF-Checker - (https://podaac-uat.jpl.nasa.gov/mcc/)
 + Pangeo - (http://pangeo-data.org/)   
 + 
+
 #### Python
 + PyData - (https://github.com/pydata)   
 

@@ -15,12 +15,14 @@ Panoply  (netcdf visualization tool from NASA-GISS)
 #### R/Rstudio
 - CRAN
 - ggplot2
+- kohonen (SOM analysis)
 
 #### ODV
 - cmoceans colormap addons
 - topographic addons
 
 #### anaconda python   2.7/3.6/3.7
+***Python 2 will be depricated in 2020 with many packages going only python 3 before then***
 + conda-forge as primary repo
 - netcdf4
 - matplotlib
@@ -47,14 +49,23 @@ Panoply  (netcdf visualization tool from NASA-GISS)
 - pyserial *POC for conda-forge*
 - erddapy [https://pyoceans.github.io/erddapy/quick_intro.html] ***python3 only***
 - zeep (python soap client)
-- gmt-python (GMT - Generic Mapping Tools wrapper) ***python3 only***
+- gmt-python (GMT - Generic Mapping Tools wrapper) ***python3 only*** _dev project_
+- jupyter lab
+
+##### PanGEO - python
+Open Source platform for big data geoscience http://pangeo-data.org/
+- xarray , pandas
+- matplotlib
+- numpy , dask
+	- siphon (unidata data ingest - install via pip)
+	- erddapy (erdap data ingest)
 
 ##### mercurial repo
 UH-software https://currents.soest.hawaii.edu/hg/pycurrents/
 
 ##### pip
 - calmap
-- jupyter
+- jupyter ***deprecated for now***
 	- rise (jupyter-slideshow)
 	- jupyter_nbextensions_configurator (extensions)
 
@@ -109,10 +120,12 @@ Project Data Synthesis List
 ---------------------------
 
 + ITAE/PITAE
+	- 2018 : Prawler Buoy (Bering, St Matt's), Popup Buoys
 	- 2017 : Prawler Buoy (Bering, Chukchi), Oculus Glider
 	- 2016 : Prawler Buoy, WaveGlider, Saildrone
 	- 2015 : Prawler Buoy, WaveGlider, Saildrone
 + ArcticHeat
+	- 2018 : XBT/AXCTD/ALAMO_FLOATS
 	- 2017 : XBT/AXCTD/ALAMO_FLOATS
 	- 2016 : XBT/AXCTD/ALAMO_FLOATS
 + NPRB_WarmEvent

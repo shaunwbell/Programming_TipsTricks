@@ -5,9 +5,11 @@ personal repository of tips and tricks and programming notes
 ## Contents:
 1. README.md - this document
 1. SoftwareNotes.md - records and suggestions for software packages that are commonly used
-1. DatabaseDescription.md - records pertaining to databases on Pavlof
 1. SelfOrganizingMaps_Notes.md - discussion of using Kohonen R package for SOM analysis
 1. Useful_Web_References.md  - links to various sources of information mostly ocean/atmosphere data driven
+1. restructured_text_cheatsheet.rst - official cheat sheet
+1. KnownBugsandConflicts.md - list of programming bugs that I've come across while trying to deploy systems across multiple computers over time
+1. ecoraid_readme.md - documentation for EcoFOCI archival structure and content
 
 ################
 
