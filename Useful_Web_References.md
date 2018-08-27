@@ -102,3 +102,10 @@ pydap, erddapy, podaacpy
 
 ### Mailing Lists
 + ESIP Tech Dive: 'http://wiki.esipfed.org/index.php/Interoperability_and_Technology/Tech_Dive_Webinar_Series'
+
+-------------------------------------------------------------------------------
+### Resume Examples
+
+- Good
++ http://www2.hawaii.edu/~jmaurer/resume.html
+- Bad
