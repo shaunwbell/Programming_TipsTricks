@@ -95,6 +95,7 @@ pydap, erddapy, podaacpy
 #### ERDDAP Servers for NOAA Projects
 - 'ArcticHeat': 'https://ferret.pmel.noaa.gov/alamo/erddap/index.html' (Public)
 - 'downdraft': 'http://downdraft.pmel.noaa.gov:8080/erddap/index.html' (Private)
+- 'akutan': 'http://akutan.pmel.noaa.gov:8080/erddap/index.html' (Private)
 - 'SDIG Internal': 'http://dunkel.pmel.noaa.gov:9290/erddap/index.html' (Private)
     + Saildrone
     + example FOCI
@@ -106,6 +107,6 @@ pydap, erddapy, podaacpy
 -------------------------------------------------------------------------------
 ### Resume Examples
 
-- Good
+___Good___
 + http://www2.hawaii.edu/~jmaurer/resume.html
-- Bad
+___Bad___
