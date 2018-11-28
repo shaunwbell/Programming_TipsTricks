@@ -13,9 +13,11 @@ Useful Sites and Links
 + Washington State Climatology Office - (http://www.climate.washington.edu/)
 + UW WeatherWall - (https://atmos.washington.edu/data/)
 + College of Dupage (GOES-16) - (https://weather.cod.edu)
++ CFSv2 Analysis/CFSR - (https://www.ncdc.noaa.gov/data-access/model-data/model-datasets/climate-forecast-system-version2-cfsv2#CFSv2%20Operational%20Analysis) 
 
 #### Oceanography   
 + PO.DAAC - (https://podaac.jpl.nasa.gov/GHRSST)
++ ECMWF / ORA-S3 Ocean Reanalysis (http://apdrc.soest.hawaii.edu/las/v6/dataset?catitem=16285)
 
 #### SST
 + MUR - (https://mur.jpl.nasa.gov/News.php)
