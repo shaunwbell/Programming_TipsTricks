@@ -22,3 +22,6 @@ Python 3.7 upgrade (end of June - 2018)
 Demo jupyterlab for 3.6/3.7
     notebook compatibility?? (installed in 3.6 env, left notebook in 2.7)
     (numpy issues periodically)
+
+GeoViews and jupyterlab support
+    stick to v1.5.0 (via condaforge) and python 3.6.6 for this and use a seperate env
