@@ -12,6 +12,12 @@ ffmpeg Example:
 
 `ffmpeg -framerate 5 -pattern_type glob -i "*_movie_2015-*.png" -c:v libx264 out.mp4`
 
+***making animated gifs***
+
+```bash
+ffmpeg -framerate 1 -pattern_type glob -i '2018*.jpg' video.avi
+ffmpeg -i video.avi -pix_fmt rgb24 out.gif
+```
 
 ** if you want to add captions/labels to each frame you need to do it using ImageMagick and the convert tool.  An example shell script to do so by adding the date from the filename is below.
 
