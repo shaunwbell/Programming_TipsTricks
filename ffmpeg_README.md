@@ -34,9 +34,9 @@ data_dir=${PWD}
 for files in `ls ${data_dir}/`
 do
     echo "processing file: ${data_dir}/$files"
-    IFS='_' read -r -a array <<< "$files"
+    IFS='-' read -r -a array <<< "$files"
     echo "DOY ${array[1]}"
-    yyyy="2017"; doy="${array[1]}"; 
+    yyyy="2018"; doy="${array[1]}"; 
     doy2date=$(date -jf %s $(($(date -jf "%F" "$yyyy-01-01" +%s) + ((10#$doy - 1)) * 86400)) +"%F")
     echo $doy2date
     convert ${data_dir}/${files} -gravity SouthWest -pointsize 30 -draw "fill black  text 50,80  '$doy2date'"  ${array[1]}.jpg
@@ -58,7 +58,8 @@ data_dir=${PWD}
 for files in `ls ${data_dir}/`
 do
     echo "processing file: ${data_dir}/$files"
-
-    convert ${data_dir}/${files} -gravity SouthWest -pointsize 30 -draw "fill black  text 50,80  '$files'"  ${files}.jpg
+    IFS='.png' read -r -a array <<< "$files"
+    fname=${array[0]}
+    convert ${data_dir}/${files} -gravity SouthWest -pointsize 45 -draw "fill black  text 160,200  '$fname'"  ${files}.jpg
 done
 ```
