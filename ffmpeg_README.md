@@ -15,7 +15,7 @@ ffmpeg Example:
 ***making animated gifs***
 
 ```bash
-ffmpeg -framerate 1 -pattern_type glob -i '2018*.jpg' video.avi
+ffmpeg -framerate 5 -pattern_type glob -i '2018*.jpg' video.avi
 ffmpeg -i video.avi -pix_fmt rgb24 out.gif
 ```
 
@@ -60,6 +60,6 @@ do
     echo "processing file: ${data_dir}/$files"
     IFS='.png' read -r -a array <<< "$files"
     fname=${array[0]}
-    convert ${data_dir}/${files} -gravity SouthWest -pointsize 45 -draw "fill black  text 160,200  '$fname'"  ${files}.jpg
+    convert ${data_dir}/${files} -gravity SouthWest -pointsize 45 -draw "fill white  text 160,200  '$fname'"  ${files}.jpg
 done
 ```
