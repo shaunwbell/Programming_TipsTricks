@@ -8,20 +8,16 @@ Useful Sites and Links
 + ICES Oceanography - (http://ocean.ices.dk/tools/unitconversion.aspx)
 -------------------------------------------------------------------------------
 ### Archive Data
+
 #### Meteorology
 + Surface Weather Maps - (http://www.wpc.ncep.noaa.gov/archives/web_pages/sfc/sfc_archive.php)
 + Washington State Climatology Office - (http://www.climate.washington.edu/)
 + UW WeatherWall - (https://atmos.washington.edu/data/)
 + College of Dupage (GOES-16) - (https://weather.cod.edu)
-+ CFSv2 Analysis/CFSR - (https://www.ncdc.noaa.gov/data-access/model-data/model-datasets/climate-forecast-system-version2-cfsv2#CFSv2%20Operational%20Analysis) 
 
 #### Oceanography   
 + PO.DAAC - (https://podaac.jpl.nasa.gov/GHRSST)
-+ ECMWF / ORA-S3 Ocean Reanalysis (http://apdrc.soest.hawaii.edu/las/v6/dataset?catitem=16285)
 
-#### SST
-+ MUR - (https://mur.jpl.nasa.gov/News.php)
-+ NCEP OI V2 - ()
 
 #### CTD/Profile
 + World Ocean Database - 
@@ -34,14 +30,28 @@ Useful Sites and Links
 + US National Ice Center / Naval Ice Center - (https://www.natice.noaa.gov/Main_Products.htm)
 + NWS Alaskan Ice Desk - (https://www.weather.gov/afc/ice)
 
+#### Satelites
++ GOES 17 - colostate (http://rammb-slider.cira.colostate.edu/?sat=goes-17&z=1&im=12&ts=1&st=0&et=0&speed=130&motion=loop&map=1&lat=0&opacity%5B0%5D=1&hidden%5B0%5D=0&pause=0&slider=-1&hide_controls=0&mouse_draw=0&follow_feature=0&follow_hide=0&s=rammb-slider&sec=full_disk&p%5B0%5D=geocolor&x=15212&y=3832)
++ GOES 16 - (https://weather.cod.edu/satrad/exper/)
++ 
 -------------------------------------------------------------------------------
 ### Model Data
 
 #### Meteorology
++ CFSv2 Analysis/CFSR - (https://www.ncdc.noaa.gov/data-access/model-data/model-datasets/climate-forecast-system-version2-cfsv2#CFSv2%20Operational%20Analysis) 
 
 #### Oceanography
++ ECMWF / ORA-S3 Ocean Reanalysis (http://apdrc.soest.hawaii.edu/las/v6/dataset?catitem=16285)
 
-#### Satelites
+#### SST
++ MUR - (https://mur.jpl.nasa.gov/News.php)
++ NCEP OI V2 - ()
++ 
+#### Reanalysis
++ ERA5 - (https://cds.climate.copernicus.eu/#!/home)
++ NARR - (https://www.esrl.noaa.gov/psd/data/gridded/data.narr.html)
++ NCEP/NCAR I - (https://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html)
++ NCEP/DOE II - (https://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis2.html) ***improved compared to I***
 
 -------------------------------------------------------------------------------
 ### Meta Information and Documentation
