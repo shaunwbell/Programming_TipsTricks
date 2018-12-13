@@ -50,7 +50,15 @@ Panoply  (netcdf visualization tool from NASA-GISS)
 - erddapy [https://pyoceans.github.io/erddapy/quick_intro.html] ***python3 only***
 - zeep (python soap client)
 - gmt-python (GMT - Generic Mapping Tools wrapper) ***python3 only*** _dev project_
-- jupyter lab
+- jupyter lab ***see additional info below***
+
+###### JupyterLab
+***extensions***
+- holoviews/geoviews
+- geo.json renderer
+- markdown renderer (native?)
+- netcdf viewer
+- github integration
 
 ##### PanGEO - python
 Open Source platform for big data geoscience http://pangeo-data.org/
