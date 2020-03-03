@@ -58,8 +58,8 @@ data_dir=${PWD}
 for files in `ls ${data_dir}/`
 do
     echo "processing file: ${data_dir}/$files"
-    IFS='.png' read -r -a array <<< "$files"
-    fname=${array[0]}
-    convert ${data_dir}/${files} -gravity SouthWest -pointsize 45 -draw "fill white  text 160,200  '$fname'"  ${files}.jpg
+    IFS='.png' read -r -a array <<< "$files" 
+    fname=${array[1]:5:4}
+    convert ${data_dir}/${files} -gravity SouthWest -pointsize 25 -draw "fill black  text 25,40  '$fname'"  ${files}.jpg
 done
 ```
